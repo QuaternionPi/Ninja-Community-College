@@ -4,13 +4,33 @@
 # User Stories
 ## John Helldiver Plays a Single Turn
 - John Helldiver decides to play a single turn of Ninja Community College
+
+### Loading the Game
 - He opens the application to the [Main Menu](#main-menu)
   - He clicks load game  
 - This opens the [Load Game Menu](#load-game)
-- John is then shown a view of the [map](#maps), with 5 [units](#units) who are about to enter a 2 floor [building](#buildings)
+- John is then shown a view of the [map](#maps), with 5 [units](#units)
+- They are about to enter a 2 floor [building](#buildings) with a sky light
+- The mission is to [clear the building](#mission-types)
+
+### Turn Simulation
 - He then orders 3 units to [breach](#breaching) through a [door](#buildings)
-- One unit [climbs](#climbing-surfaces) up the side of the building and through a [window](#buildings)
-- The final unit continues up the building to the roof
+- One unit is ordered to [climb](#climbing-surfaces) up the side of the building and through a [window](#buildings)
+- The final unit is ordered to continue up the building to the roof
+- It is then ordered to [loss a grenade](#carrying) he was carrying down the sky light
+
+### Turn Combat
+- The breach squad enters via the front door
+- They shoot and kill 2 [demons](#demons)
+- The window entrance unit interrupts a [cultist ritual](#cultist-rituals)
+  - He hides behind [cover](#cover) and shoots at the cultists
+- Finally the roof unit drops a grenade in through the roof
+- The grenades AoE kills the cultists
+- The remainder of the turn plays out
+
+### Exiting
+- Every enemy on the map is now dead
+- The mission is complete
 
 # Menus
 ## Main Menu
@@ -63,6 +83,11 @@ Presents a list of games with options to:
 ## Furniture
 - Furniture encapsulates objects that can be found on the map
 - Examples include crates, vehicles, explosives and objectives
+
+## Cover
+- Cover is absolute, often destructible, protection from most attacks
+- Buildings, furniture and protection orders provide cover
+- Cover can be shot from
 
 ## Evac Points
 - Units can leave a mission early by reaching an evac point
@@ -167,9 +192,17 @@ Presents a list of games with options to:
 - This includes items around the map and unconscious units
 - Carrying 'heavy' objects causes a move speed penalty
 - Carrying limits the use of weapons
+- Carried items can also be dropped or thrown
 
 # Combat
-
+## Damage Calculation
+- Any combat action will use $Attack$ and $Defense$ and compute $Damage$
+- The formula for damage is as follows
+  - $Damage = max(Attack-\frac{Defense}2, \frac{Attack}2)$
+  - So if $Attack \lt Defense$ then $Damage=\frac{Attack}2$
+  - Otherwise $Defense \leq Attack$ then $Damage=Attack-\frac{Defense}2$
+- $Attack$ is primarily controlled by the attacking weapon
+- $Defense$ is primarily controlled by attackeda
 
 # Abilities
 
@@ -188,11 +221,24 @@ Presents a list of games with options to:
 - Have summoned demons to kill everyone
 - Want you to fight back, to save your own soul
 
+### Cultist Rituals
+- Cultists perform rituals to aid demons
+- Most commonly to open a demon portal
+
 ## Demons
 - Known heaven isn't real
 - Are fading souls, extending their lives by consuming humans
 - Satan is old, bored and wants to stop existing
   - He can only die once there are no more souls on earth
+
+## Civilians
+- Civilians are humans found around the map
+- They can be consumed by demons, granting them powers
+
+### Civilian Combatants
+- Some civilian will take up arms
+- If they are found they will be brought under your control
+- If they survive a round they may be available to recruit
 
 # Graphics
 
