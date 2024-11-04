@@ -81,7 +81,18 @@ Presents a list of games with options to:
 - Clear area
 
 # Story Missions
+## Capture Demon
+- Capture a demon and torture information from him
+- He reveals heaven isn't real
 
+## Convert Cultists
+- Retrieve senior Cultist from temple
+- Show him heaven isn't real
+
+## Final Mission
+- Summon a portal to hell
+- Bring a squad of ninjas and turned Cultists
+- Need to complete a ritual to close all portals
 
 # Units
 - Units are the main points of interaction in the game
@@ -171,10 +182,17 @@ Presents a list of games with options to:
   - Can appear in battles in hell
 
 ## Cultists
-
+- Think the way to save souls is to stop people from sinning
+  - This is done by speeding up the end of days
+  - Have accepted they are going to hell
+- Have summoned demons to kill everyone
+- Want you to fight back, to save your own soul
 
 ## Demons
-
+- Known heaven isn't real
+- Are fading souls, extending their lives by consuming humans
+- Satan is old, bored and wants to stop existing
+  - He can only die once there are no more souls on earth
 
 # Graphics
 
