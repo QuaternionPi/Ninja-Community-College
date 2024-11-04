@@ -262,5 +262,16 @@ Presents a list of games with options to:
 - If they survive a round they may be available to recruit
 
 # Graphics
+## Dimensions
+- The game is 2 dimensional pixel art
+- The background is parallax scrolled on the x-axis
+- Play takes place on the z=0 layer of the parallax
 
+## Character Sprites
+- Character sprites are comprised of 2 components:
+  - Color textures, texture of colors 
+  - Lookup texture, texture of indexes in the color texture
+- The character sprite are made by:
+  - Replacing pixels in the lookup texture with their indexed location in the color texture
+  - Then blending on top any additional color textures
 
