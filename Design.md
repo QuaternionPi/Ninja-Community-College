@@ -25,7 +25,7 @@
 - The window entrance unit interrupts a [cultist ritual](#cultist-rituals)
   - He hides behind [cover](#cover) and shoots at the cultists
 - Finally the roof unit drops a grenade in through the roof
-- The grenades AoE kills the cultists
+- The grenades [AoE](#area-of-effect) kills the cultists
 - The remainder of the turn plays out
 
 ### Exiting
@@ -202,7 +202,28 @@ Presents a list of games with options to:
   - So if $Attack \lt Defense$ then $Damage=\frac{Attack}2$
   - Otherwise $Defense \leq Attack$ then $Damage=Attack-\frac{Defense}2$
 - $Attack$ is primarily controlled by the attacking weapon
-- $Defense$ is primarily controlled by attackeda
+- $Defense$ is primarily controlled by attacked
+
+## Melee
+- Melee weapons are high attack, zero range weapons
+- They are stealthy
+- They can be thrown at range, but have to be recovered
+
+## Ranged Weapons
+- Ranged weapons are medium-high attack
+- The make noise and aren't conducive to stealth
+- The have an attack value and set up time, as well as range
+- Ranged weapons can have lower set up, lower attack uses
+  - Consider a quick shot, aimed shot, and multi shot
+  - Each having a time to damage difference
+
+## Area of Effect
+- Certain weapons will do area of effect damage
+- This effects a radius around the point of explosion
+- It can damage building's internal supports
+- Explosions will have a radius $r$, within which full damage is done
+- Within a radius of $2r$ only half damage is done
+- Examples include grenades and explosives
 
 # Abilities
 
