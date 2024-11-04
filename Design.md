@@ -69,7 +69,18 @@ Presents a list of games with options to:
 - Upon departure, units not at the evac point will be lost
 - Early evacuations are encouraged in losing situations
 
-# Missions
+# Mission Types
+## Targeted
+- Kill Demon or Cultist leader
+  - Final Mission to kill The Devil
+- Retrieve/destroy item/person
+
+## Mass Assault
+- Destroy building
+  - Demon nest, Cultist temple
+- Clear area
+
+# Story Missions
 
 
 # Units
