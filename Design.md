@@ -7,7 +7,10 @@
 - He opens the application to the [Main Menu](#main-menu)
   - He clicks load game  
 - This opens the [Load Game Menu](#load-game)
-- John is then shown a view of the [map](#maps), with 5 [units](#units) who are entering a [building](#buildings)
+- John is then shown a view of the [map](#maps), with 5 [units](#units) who are about to enter a 2 floor [building](#buildings)
+- He then orders 3 units to [breach](#breaching) through a [door](#buildings)
+- One unit [climbs](#climbing-surfaces) up the side of the building and through a [window](#buildings)
+- The final unit continues up the building to the roof
 
 # Menus
 ## Main Menu
@@ -83,6 +86,27 @@ Presents a list of games with options to:
   - Amount of action doable per turn
 - Conscious: bool
   - Is this unit still conscious
+- Class: Object
+
+## Class
+- Assault
+  - Short range
+  - High health 
+- Sharpshooter
+  - Mid-long range
+  - Heavy caliber weapons
+  - Not very mobile
+- Melee
+  - Zero range
+  - Stealth
+  - Acrobatics
+  - Quiet shooting, stabbing
+- Skills come in levels
+  - Can only take 50% of skills per level
+  - Highest level unit referred to as senior
+- Captain
+  - The senior in a battle with out a surviving captain becomes a captain
+  - Keeps original skill tree
 
 ## Unconscious
 - Once a unit's health falls below 20%, it becomes unconscious
@@ -119,11 +143,26 @@ Presents a list of games with options to:
 ## Carrying
 - Units can pick up and carry objects
 - This includes items around the map and unconscious units
+- Carrying 'heavy' objects causes a move speed penalty
+- Carrying limits the use of weapons
 
 # Combat
 
 
 # Abilities
+
+
+# Factions
+## Ninjas
+- Units can be sent into hell to reduce demon aggression
+  - Higher level higher reduction in aggression
+  - Can come back in difficult circumstances
+  - Can appear in battles in hell
+
+## Cultists
+
+
+## Demons
 
 
 # Graphics
