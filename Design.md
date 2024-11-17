@@ -135,7 +135,15 @@ Presents a list of games with options to:
   - Is this unit still conscious
 - Class: Object
 
-## Class
+## Class Progression
+### Ninja Classes
+Ninjas progress in levels.
+- They can only take 50% of skills per level
+- Highest level unit referred to as senior
+- Skills are given some bias to their cost
+  - This cost is randomized per unit
+
+Ninjas Choose one of the following classes:
 - Assault
   - Short range
   - High health 
@@ -148,12 +156,25 @@ Presents a list of games with options to:
   - Stealth
   - Acrobatics
   - Quiet shooting, stabbing
-- Skills come in levels
-  - Can only take 50% of skills per level
-  - Highest level unit referred to as senior
+
+Ninjas Can optionally have the class of Captain.
 - Captain
   - The senior in a battle with out a surviving captain becomes a captain
   - Keeps original skill tree
+  - Has additional skills to boost the whole team
+
+### Cultist Classes
+Cultists hold the same three base classes as Ninjas. 
+Cultists progress by exchanging current abilities with higher level ones.
+They can hold up to three skills in their chosen class. 
+
+Cultist who are the most senior of their class at the end of a mission become Disciples
+- Disciples are like Ninja Captains, however they gain class-specific team boosts
+- Can assist in ceremonies
+
+Finally, Disciples can become Priests
+- Ceremonies require at least one Priest at all times
+  - This priest cannot use attacks until the ceremony is completed or cancelled
 
 ## Unconscious
 - Once a unit's health falls below 20%, it becomes unconscious
