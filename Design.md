@@ -136,14 +136,8 @@ Presents a list of games with options to:
 - Class: Object
 
 ## Class Progression
-### Ninja Classes
-Ninjas progress in levels.
-- They can only take 50% of skills per level
-- Highest level unit referred to as senior
-- Skills are given some bias to their cost
-  - This cost is randomized per unit
-
-Ninjas Choose one of the following classes:
+### Generic Classes
+All units in the game take one of the following classes:
 - Assault
   - Short range
   - High health 
@@ -157,6 +151,18 @@ Ninjas Choose one of the following classes:
   - Acrobatics
   - Quiet shooting, stabbing
 
+### Rock Paper Scissors
+- Assault units beat Melee units
+- Melee beats Sharpshooter
+- Sharpshooter beats Assault
+
+### Ninja Classes
+Ninjas progress in levels.
+- They can only take 50% of skills per level
+- Highest level unit referred to as senior
+- Skills are given some bias to their cost
+  - This cost is randomized per unit
+
 Ninjas Can optionally have the class of Captain.
 - Captain
   - The senior in a battle with out a surviving captain becomes a captain
@@ -165,15 +171,12 @@ Ninjas Can optionally have the class of Captain.
 
 ### Cultist Classes
 Cultists hold the same three base classes as Ninjas. 
-Cultists progress by exchanging current abilities with higher level ones.
-They can hold up to three skills in their chosen class. 
-
-Cultist who are the most senior of their class at the end of a mission become Disciples
-- Disciples are like Ninja Captains, however they gain class-specific team boosts
-- Can assist in ceremonies
-
-Finally, Disciples can become Priests
-- Ceremonies require at least one Priest at all times
+Cultists progress by upgrading their abilities.
+Each level they can gain one (pre-determined) skill in their chosen class. 
+- Cultist who are the most senior of their class at the end of a mission become Priests
+- Priests are like Ninja Captains, however they gain class-specific team boosts
+- Priests can conduct ceremonies
+  - Ceremonies require at least one Priest at all times
   - This priest cannot use attacks until the ceremony is completed or cancelled
 
 ### Demon Classes
@@ -182,7 +185,7 @@ Finally, Disciples can become Priests
 - They follow the same base class structure of Ninjas and Cultists
 - Once demons reach the final level in their class they have two options
   - Become class-specific, powerful killing machine
-  - Become a Demon Prince and leave the map, increasing demon aggression
+  - Become a Demon Lord and leave the map, increasing demon aggression
 
 ## Unconscious
 - Once a unit's health falls below 20%, it becomes unconscious
