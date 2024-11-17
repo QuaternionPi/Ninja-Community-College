@@ -176,6 +176,14 @@ Finally, Disciples can become Priests
 - Ceremonies require at least one Priest at all times
   - This priest cannot use attacks until the ceremony is completed or cancelled
 
+### Demon Classes
+- Demons grow in strength by consuming human souls
+- This can happen on the battlefield!
+- They follow the same base class structure of Ninjas and Cultists
+- Once demons reach the final level in their class they have two options
+  - Become class-specific, powerful killing machine
+  - Become a Demon Prince and leave the map, increasing demon aggression
+
 ## Unconscious
 - Once a unit's health falls below 20%, it becomes unconscious
 - Unconscious units are unable to do anything
