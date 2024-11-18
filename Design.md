@@ -170,7 +170,6 @@ Ninjas Can optionally have the class of Captain.
   - Has additional skills to boost the whole team
 
 ### Cultist Classes
-Cultists hold the same three base classes as Ninjas. 
 Cultists progress by upgrading their abilities.
 Each level they can gain one (pre-determined) skill in their chosen class. 
 - Cultist who are the most senior of their class at the end of a mission become Priests
@@ -182,7 +181,6 @@ Each level they can gain one (pre-determined) skill in their chosen class.
 ### Demon Classes
 - Demons grow in strength by consuming human souls
 - This can happen on the battlefield!
-- They follow the same base class structure of Ninjas and Cultists
 - Once demons reach the final level in their class they have two options
   - Become class-specific, powerful killing machine
   - Become a Demon Lord and leave the map, increasing demon aggression
