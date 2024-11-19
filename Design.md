@@ -287,6 +287,55 @@ In those cases, or when units complete their issued orders, they will default to
 - Units are to choose their preferred weapon
 - If their preferred weapon cannot be used behind cover the unit will leave cover to fire
 
+## Enemy Team AI
+- The Enemy team AI as an alert level, dictating AI aggressiveness
+- The AI also have (limited) knowledge about the player and their positions
+- There is also a list of goals
+- Finally, directions are issued to complete goals
+
+### Alert Level
+- The alert level represents how hard the AI is trying to kill you
+- It can be increased by many thing:
+  - How you entered the map
+  - How many units you bring
+  - The nature of the map/mission
+  - How long the mission is going on
+  - Loud noises: guns, grenades
+  - Blowing up a building
+  - Alarm pulled
+
+### Knowledge
+- The enemy AI will gain knowledge of your presence 
+- Interactions with enemy units, or sounds heard will give the AI more information
+- The better the information the more targeted the AI's responses will be
+- Knowledge can include:
+  - For quick fights: position of the killing unit
+  - Longer fights: the number of units in an area
+  - Alarm pulled
+  - Noise in area
+
+### Goals 
+- Goals are the objectives of the AI
+- They include:
+  - Protect a unit or location
+  - Patrol an area
+  - Kill attacking units
+  - Complete a Cultist Ceremony
+  - Extract a unconscious unit
+  - Retreat all units
+  - Capture location
+  - Sweep map
+- They may be permanent, for a duration, or on a more complex predicate
+- They also have a priority
+
+### Directions
+- Units will be assigned to tasks in order of distance and priority
+- Tasks may require a unit or squad of units to:
+  - Move
+  - Breach
+  - Perform a Cultist Ceremony
+  - Carry an unconscious unit
+
 # Factions
 ## Ninjas
 - Units can be sent into hell to reduce demon aggression
