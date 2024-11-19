@@ -258,6 +258,35 @@ Each level they can gain one (pre-determined) skill in their chosen class.
 # Abilities
 
 
+# Artificial Intelligence
+## Unit Statuses
+Units will always follow orders to the best of their abilities.
+Interruptions can occur, making planned orders impossible to complete.
+In those cases, or when units complete their issued orders, they will default to their status.
+
+### Execute Orders
+- Complete orders
+- To be held until defaulting to another status
+
+### Retreat
+- Leave the space in the direction of safety
+- If no safe direction exists, become defensive
+
+### Defensive
+- Seek cover and fire
+- Once enemies are dead, do not advance
+
+### Offensive
+- Seek cover and fire
+- Once enemies are dead, advance
+
+### Hold Point
+- Enter an area and stay there
+
+## Weapon Choice
+- Units are to choose their preferred weapon
+- If their preferred weapon cannot be used behind cover the unit will leave cover to fire
+
 # Factions
 ## Ninjas
 - Units can be sent into hell to reduce demon aggression
