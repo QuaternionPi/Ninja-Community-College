@@ -24,7 +24,7 @@
 - They shoot and kill 2 [demons](#demons)
 - The window entrance unit interrupts a [cultist ritual](#cultist-rituals)
   - He hides behind [cover](#cover) and shoots at the cultists
-- Finally the roof unit drops a grenade in through the roof
+- Finally the roof unit drops a [grenade](#area-of-effect) in through the roof
 - The grenades [AoE](#area-of-effect) kills the cultists
 - The remainder of the turn plays out
 
